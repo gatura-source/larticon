@@ -19,13 +19,7 @@ A customizable and efficient **identicon avatar generator** built in Laravel. It
 ## 🛠 Installation
 
 1. Clone or add this to your Laravel app.
-2. Register the route in `routes/web.php` or `routes/api.php`:
 
-```php
-use App\Http\Controllers\IdenticonController;
-
-Route::get('/avatar/{seed}', [IdenticonController::class, 'generate']);
-Route::get('/avatar-info/{seed}', [IdenticonController::class, 'info']);
 ```
 
 ---
